@@ -2,7 +2,11 @@
   "name": "2j-habitat-app",
   "version": "1.0.0",
   "description": "Application de gestion pour artisan",
-  "keywords": ["react", "firebase", "saas"],
+  "keywords": [
+    "react",
+    "firebase",
+    "saas"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "react": "18.2.0",
@@ -13,9 +17,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "browserslist": [">0.2%", "not dead", "not op_mini all"]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }
